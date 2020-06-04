@@ -129,30 +129,5 @@ printf("\n");
 	//printf("record %d\n",i-1);
   }
 printf("Begining Computation\n");
-/*double avg[40][110];
-int daycount[7];
-
-printf("%d %d\n",m,n);
-for(i=3;i<m;i++){
-	printf("%s\n",a[i][0]);
-	char *rno = a[i][0];
-	char *rec = a[i][1];
-	printf("%s \n",rno);
-	for(j=1;j<n;j++){
-		//printf("j%d\n",j);
-		if((j-1)%19==0){
-			int k=0;
-			for(k=1;k<=4;++k) {
-				avg[i][daycount[0]]+=((rec[2*(k+j-1)]-49)+1);
-				printf("%f ",avg[i][daycount[0]]);
-			}
-			avg[i][daycount[0]]/=5;
-			printf("avg %f\n",avg[i][daycount[0]]);
-		}
-	
-	}
-}
-
-*/
 return 0 ;
 }
